@@ -1,0 +1,21 @@
+{
+  "frameId": "frame-2",
+  "imagePath": "frame-2.pgm",
+  "capturedAt": "2026-01-01T00:00:02.000Z",
+  "sourceWindow": "Mock Desktop",
+  "dimensions": { "width": 16, "height": 16 },
+  "anchors": [
+    {
+      "id": "task-panel",
+      "label": "task panel",
+      "bounds": { "x": 4, "y": 5, "width": 4, "height": 4 },
+      "taskRelevant": true
+    },
+    {
+      "id": "notification",
+      "label": "notification badge",
+      "bounds": { "x": 11, "y": 9, "width": 2, "height": 4 },
+      "taskRelevant": false
+    }
+  ]
+}

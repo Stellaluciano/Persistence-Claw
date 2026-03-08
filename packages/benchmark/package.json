@@ -1,0 +1,17 @@
+{
+  "name": "@persistence-claw/benchmark",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run --passWithNoTests",
+    "benchmark": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@persistence-claw/sdk": "workspace:*"
+  }
+}

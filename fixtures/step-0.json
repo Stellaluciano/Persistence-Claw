@@ -1,0 +1,15 @@
+{
+  "frameId": "frame-0",
+  "imagePath": "frame-0.pgm",
+  "capturedAt": "2026-01-01T00:00:00.000Z",
+  "sourceWindow": "Mock Desktop",
+  "dimensions": { "width": 16, "height": 16 },
+  "anchors": [
+    {
+      "id": "task-panel",
+      "label": "task panel",
+      "bounds": { "x": 4, "y": 5, "width": 4, "height": 4 },
+      "taskRelevant": true
+    }
+  ]
+}
