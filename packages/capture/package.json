@@ -1,0 +1,14 @@
+{
+  "name": "@persistence-claw/capture",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run --passWithNoTests"
+  },
+  "dependencies": {"@persistence-claw/shared-types": "workspace:*", "zod": "^3.24.1"}
+}
